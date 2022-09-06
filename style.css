@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 900px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: white;
+}
+img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 1000;
+    top: 200px;
+    left: 550px;
+    display: none;
+}
+.design{
+    width: 1200px;
+    height: 600px;
+    background-color: black;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.design2{
+    width: 1000px;
+    height: 500px;
+    background-color: blueviolet;
+    margin-left: 100px;
+}
+.player-1{
+    width: 300px;
+    height: 40px;
+    background: black;
+    margin-left: 80px;
+    margin-top: 30px;
+    position: absolute;
+    top: 50px;
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+}
+.player-2{
+    width: 300px;
+    height: 40px;
+    background: black;
+    margin-left: 499px;
+    margin-top: 30px;
+    position: absolute;
+    top: 50px;
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+}
+.dice{
+    position: absolute;
+}
+.roller{
+    position: absolute;
+    top: 400px;
+    left: 580px;
+    color: black;
+    font-size: 60px;
+    z-index: 1000;
+
+}
+.design2 p{
+    position: absolute;
+    top: 470px;
+    left: 550px;
+    color: black;
+    font-size: 16px;
+    border: 1px solid black;
+    padding: 4px;
+    transition: 1s;
+}
+.design2 p:hover{
+    background-color: black;
+    color: aliceblue;
+
+}
+.total-1{
+    width: 300px;
+    height: 70px;
+    background: black;
+    position: absolute;
+    left: 200px;
+    top: 400px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+}.total-2{
+    width: 300px;
+    height: 70px;
+    background: black;
+    position: absolute;
+    left: 700px;
+    top: 400px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+}
+
+h1{
+    color: whitesmoke;
+    position: absolute;
+    position: absolute;
+    top: 350px;
+    left:200px ;
+
+}
+#player{
+    color: whitesmoke;
+    position: absolute;
+    position: absolute;
+    top: 350px;
+    left:900px;
+}
+.hold{
+    position: absolute ;
+    top: 20%;
+}
